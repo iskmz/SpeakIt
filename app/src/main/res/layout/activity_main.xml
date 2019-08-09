@@ -88,7 +88,8 @@
 
                     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
                             android:text="SPEAK" android:textSize="26sp"
-                            android:padding="10dp" android:background="@drawable/back_btn_speak"
+                            android:paddingStart="10dp"  android:paddingEnd="10dp"
+                            android:background="@drawable/back_btn_speak"
                             android:id="@+id/btnSpeak"/>
 
                 </LinearLayout>
