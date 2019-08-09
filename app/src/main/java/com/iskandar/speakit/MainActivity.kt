@@ -26,11 +26,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun showInfoDialog() {
         val info = AlertDialog.Builder(this@MainActivity)
-            .setTitle("Number Tools")
+            .setTitle("Speak It !")
             .setMessage("by Iskandar Mazzawi \u00a9")
             .setPositiveButton("OK") { dialog, _ -> dialog.dismiss()  }
-            .setNegativeButton("Exit App.") { _,_ -> finish() }
-            .setNeutralButton("Exit App.") { _,_ -> finish() }
             .setIcon(R.drawable.ic_info_green)
             .create()
         info.setCanceledOnTouchOutside(false)
