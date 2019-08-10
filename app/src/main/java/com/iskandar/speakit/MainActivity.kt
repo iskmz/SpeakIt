@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         btnSpeak.setOnClickListener { speak() }
     }
 
+
     private fun speak() {
         if(txtInput.text.toString().isNotBlank()) {
             tts.speak(txtInput.text.toString(),TextToSpeech.QUEUE_FLUSH,null,"sayingSomething")
